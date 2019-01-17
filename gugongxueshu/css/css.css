@@ -1,0 +1,448 @@
+.position {
+  height: 70px;
+  line-height: 50px;
+}
+.position a {
+  text-decoration: none;
+  color: inherit;
+  margin: 0 10px;
+}
+.position a:first-child {
+  margin-left: 0;
+}
+.wenzi .title {
+  text-align: center;
+}
+.wenzi .title img {
+  height: 32px;
+  width: 22px;
+  max-width: 100px;
+}
+.wenzi .title h2 {
+  font-size: 26px;
+  color: #474747;
+  padding-bottom: 10px;
+}
+.wenzi .title h2 a:hover {
+  color: greenyellow;
+}
+.wenzi .title .j-title {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 10px;
+  line-height: 1;
+}
+.wenzi .title .kong {
+  height: 20px;
+  width: 100%;
+}
+.content {
+  background: url(../images/learning-pic2.jpg);
+  min-height: 360px;
+  overflow: hidden;
+}
+.content .l-photo {
+  overflow: hidden;
+  float: left;
+}
+.content .l-photo img {
+  vertical-align: middle;
+  max-width: 100%;
+  max-height: 100%;
+}
+.content .r-text {
+  overflow: hidden;
+  padding: 45px 60px;
+  position: relative;
+}
+.content .r-text .item {
+  padding-top: 6px;
+  padding-bottom: 17px;
+}
+.content .r-text .item a {
+  display: block;
+  color: #474747;
+}
+.content .r-text .item a span {
+  background: url(../images/dian1_1.png) no-repeat right center;
+  font-size: 17px;
+  color: #fff;
+  padding-right: 15px;
+  margin-right: 15px;
+}
+.content .r-text .item a span i {
+  font-size: 22px;
+  font-style: normal;
+}
+.content .r-text .item a p {
+  color: #fff;
+  display: inline-block;
+  font-size: 14px;
+}
+.content .r-text .item a p:hover {
+  color: yellowgreen;
+}
+.content .r-text .more {
+  position: absolute;
+  top: 35px;
+  right: 60px;
+  float: right;
+  color: #fff;
+  line-height: 1;
+  padding: 10px 17px;
+  width: 1em;
+}
+.content .r-text .more i {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 48px;
+  height: 48px;
+  background: url(../images/more_1.png) no-repeat;
+  font-style: normal;
+  font-weight: normal;
+  transition: all 1s linear;
+}
+.content .r-text .more i:hover {
+  transform: rotateZ(-360deg);
+}
+.next-2 {
+  margin-top: 30px;
+}
+.next-2 .box1 {
+  width: 414px;
+  margin-right: 17px;
+  float: left;
+}
+.next-2 .box1 .title {
+  text-align: center;
+  padding-bottom: 20px;
+}
+.next-2 .box1 .title .l-a {
+  font-size: 26px;
+  color: #474747;
+}
+.next-2 .box1 .title .l-a img {
+  width: 22px;
+  height: 32px;
+}
+.next-2 .box1 .l-content {
+  background: url(../images/learning-pic3.jpg);
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 50px;
+}
+.next-2 .box1 .l-content h2 {
+  text-align: center;
+  color: #fff;
+  padding-top: 25px;
+  margin-bottom: 15px;
+}
+.next-2 .box1 .l-content .bao {
+  height: 376px;
+  position: relative;
+}
+.next-2 .box1 .l-content .bao .nei {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  padding: 50px;
+  padding-top: 0;
+}
+.next-2 .box1 .l-content .bao .nei a {
+  padding: 6px 0 10px 20px;
+  background: url(../images/learning-icon.png) no-repeat left center;
+  float: left;
+  width: 58px;
+  color: #fff;
+}
+.next-2 .box1 .l-content .bao .nei a:hover {
+  color: #91ff00;
+}
+.next-2 .box1 .l-content .xia {
+  text-align: center;
+  font-size: 20px;
+  color: #fff;
+}
+.next-2 .box1 .l-content .xia a {
+  vertical-align: middle;
+  display: inline-block;
+  background: url(../images/learning-icon1.png) no-repeat;
+  margin: 0 -82px;
+  width: 107px;
+  height: 24px;
+}
+.next-2 .box2 {
+  overflow: hidden;
+}
+.next-2 .box2 .title {
+  text-align: center;
+  padding-bottom: 20px;
+}
+.next-2 .box2 .title span {
+  font-size: 26px;
+}
+.next-2 .box2 .title img {
+  height: 32px;
+  width: 22px;
+}
+.next-2 .box2 .guanyu {
+  height: 264px;
+  background: url(../images/learning-pic4.jpg);
+  width: 50%;
+  float: left;
+}
+.next-2 .box2 .guanyu .text- {
+  padding: 14px 40px;
+}
+.next-2 .box2 .guanyu .text- h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #fff;
+}
+.next-2 .box2 .guanyu .text- p {
+  font-size: 14px;
+  color: #fff;
+  text-indent: 2em;
+  line-height: 24px;
+  margin-bottom: 15px;
+}
+.next-2 .box2 .jigou {
+  height: 264px;
+  background: url(../images/learning-pic5.jpg);
+  width: 50%;
+  float: left;
+}
+.next-2 .box2 .jigou .text- {
+  padding: 14px 40px;
+}
+.next-2 .box2 .jigou .text- .chao {
+  font-size: 18px;
+  width: 120px;
+  height: 35px;
+  display: block;
+  position: relative;
+  text-align: center;
+  line-height: 35px;
+}
+.next-2 .box2 .jigou .text- .chao p {
+  color: #fff;
+  position: absolute;
+}
+.next-2 .box2 .jigou .text- .chao .dingwei {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.next-2 .box2 .jigou .text- h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #fff;
+}
+.next-2 .box2 .jigou .text- p {
+  font-size: 14px;
+  color: #fff;
+  text-indent: 2em;
+  line-height: 24px;
+  margin-bottom: 15px;
+}
+.next-2 .box2 .keyan {
+  height: 248px;
+  background: url(../images/learning-pic6.jpg);
+  width: 100%;
+  float: left;
+}
+.next-2 .box2 .keyan .text- {
+  padding: 40px 40px;
+}
+.next-2 .box2 .keyan .text- h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #fff;
+}
+.next-2 .box2 .keyan .text- p {
+  font-size: 14px;
+  color: #fff;
+  text-indent: 2em;
+  line-height: 24px;
+  margin-bottom: 15px;
+}
+.next-3 {
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+.next-3 .box-l {
+  width: 414px;
+  float: left;
+  margin-right: 17px;
+}
+.next-3 .box-l .title {
+  text-align: center;
+  padding-bottom: 20px;
+}
+.next-3 .box-l .title h2 {
+  font-size: 26px;
+  color: #474747;
+}
+.next-3 .box-l .title h2 span {
+  position: relative;
+  display: inline-block;
+}
+.next-3 .box-l .title h2 span img {
+  height: 32px;
+  width: 22px;
+}
+.next-3 .box-l .san img {
+  vertical-align: middle;
+  max-width: 100%;
+  max-height: 100;
+}
+.next-3 .box-r {
+  overflow: hidden;
+}
+.next-3 .box-r .title {
+  text-align: center;
+  padding-bottom: 20px;
+}
+.next-3 .box-r .title h2 {
+  font-size: 26px;
+  color: #474747;
+}
+.next-3 .box-r .title h2 span {
+  position: relative;
+  display: inline-block;
+}
+.next-3 .box-r .title h2 span img {
+  height: 32px;
+  width: 22px;
+}
+.next-3 .box-r .item1 {
+  position: relative;
+  background: url(../images/learning-pic10.jpg);
+  width: 420px;
+  height: 471px;
+  float: left;
+}
+.next-3 .box-r .item1 .bg {
+  position: absolute;
+  background: url(../images/s58537e20b272a.png);
+  width: 349px;
+  height: 305px;
+  bottom: 0;
+  right: 0;
+}
+.next-3 .box-r .item1 .text {
+  padding: 55px 50px;
+  padding-bottom: 0;
+}
+.next-3 .box-r .item1 .text h2 {
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+.next-3 .box-r .item1 .text p {
+  text-indent: 2em;
+  font-size: 14px;
+  color: #fff;
+  line-height: 24px;
+  margin-bottom: 15px;
+}
+.next-3 .box-r .item1 .text .link {
+  font-size: 14px;
+  color: #fff;
+  width: 120px;
+  height: 35px;
+  display: block;
+  position: relative;
+  text-align: center;
+  line-height: 35px;
+}
+.next-3 .box-r .item2 {
+  background: url(../images/learning-pic4.jpg);
+  width: 407px;
+  height: 305px;
+  float: left;
+  position: relative;
+}
+.next-3 .box-r .item2 .text {
+  padding: 55px 50px;
+  padding-bottom: 25px;
+}
+.next-3 .box-r .item2 .text h2 {
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+.next-3 .box-r .item2 .text li .one {
+  float: left;
+  font-size: 17px;
+  color: #fff;
+  display: inline-block;
+  line-height: 1;
+  padding-right: 10px;
+  background: url(../images/learning-icon3.png) no-repeat right center;
+}
+.next-3 .box-r .item2 .text li .one .two {
+  font-style: normal;
+  font-size: 22px;
+}
+.next-3 .box-r .item2 .text li a p {
+  text-indent: 0;
+  margin-left: 75px;
+  margin-bottom: 8px;
+  color: #fff;
+}
+.next-3 .box-r .item2 .text p:hover {
+  color: greenyellow;
+}
+.next-3 .box-r .item2 .more {
+  position: relative;
+  top: -230px;
+  right: 40px;
+  float: right;
+  color: #fff;
+  line-height: 1;
+  padding: 10px 17px;
+  width: 1em;
+}
+.next-3 .box-r .item2 .more i {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 48px;
+  height: 48px;
+  background: url(../images/more_1.png) no-repeat;
+  font-style: normal;
+  font-weight: normal;
+  transition: all 1s linear;
+}
+.next-3 .box-r .item2 .more i:hover {
+  transform: rotateZ(-360deg);
+}
+.next-3 .box-r .item3 {
+  background: url(../images/learning-pic11.jpg);
+  width: 407px;
+  height: 166px;
+  float: left;
+}
+.next-3 .box-r .item3 .bg1 {
+  background: url(../images/learning-pic12.jpg) no-repeat center;
+  width: 50%;
+  float: left;
+  height: 166px;
+  font-size: 24px;
+  color: #fff;
+  text-align: center;
+  line-height: 166px;
+}
+.next-3 .box-r .item3 .bg2 {
+  background: url(../images/learning-pic13.jpg) no-repeat center;
+  width: 50%;
+  float: left;
+  height: 166px;
+  font-size: 24px;
+  color: #fff;
+  text-align: center;
+  line-height: 166px;
+}
